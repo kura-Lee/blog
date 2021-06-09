@@ -3,3 +3,44 @@ INFO 2021-06-09 11:34:39,014 basehttp 154 "GET / HTTP/1.1" 200 4
 INFO 2021-06-09 11:38:14,075 autoreload 597 Watching for file changes with StatReloader
 INFO 2021-06-09 11:38:20,651 urls 27 info
 INFO 2021-06-09 11:38:20,658 basehttp 154 "GET / HTTP/1.1" 200 4
+INFO 2021-06-09 11:48:55,796 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 11:50:01,559 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 11:50:39,528 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 11:51:20,109 basehttp 154 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2021-06-09 11:51:20,545 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-09 11:51:20,606 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-06-09 11:51:20,633 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-09 11:51:20,634 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-09 11:51:20,646 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-06-09 11:51:20,648 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-09 11:51:20,650 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-09 11:51:20,657 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-09 11:51:20,661 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-09 11:51:20,696 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-06-09 11:51:20,709 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-06-09 11:51:25,992 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-06-09 11:52:02,407 urls 27 info
+INFO 2021-06-09 11:52:02,427 basehttp 154 "GET / HTTP/1.1" 200 4
+INFO 2021-06-09 12:27:23,021 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 12:30:41,893 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 12:31:41,362 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-09 12:32:54,649 log 222 Not Found: /
+WARNING 2021-06-09 12:32:54,695 basehttp 154 "GET / HTTP/1.1" 404 2092
+WARNING 2021-06-09 12:32:55,232 log 222 Not Found: /favicon.ico
+WARNING 2021-06-09 12:32:55,232 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2143
+INFO 2021-06-09 12:34:01,697 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2021-06-09 12:34:02,592 basehttp 154 "GET /register/ HTTP/1.1" 200 5217
+INFO 2021-06-09 12:34:02,898 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-09 12:34:02,927 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-09 12:34:02,937 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-06-09 12:34:02,937 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-09 12:34:02,958 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-09 12:34:02,965 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-06-09 12:46:45,963 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 12:47:12,100 basehttp 154 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-06-09 12:47:12,173 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-09 12:47:12,173 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-09 12:47:12,176 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-09 12:47:12,177 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-09 12:47:12,181 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-09 12:47:12,488 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
