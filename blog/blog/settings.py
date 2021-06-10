@@ -25,7 +25,7 @@ SECRET_KEY = 'cgnqt9gyu_yyj1pf81s95_v9y&40nz2c8*vsa!75+6pto2v-$f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #子应用的注册
     'users.apps.UsersConfig',
+    #'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE = [

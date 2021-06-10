@@ -35,4 +35,6 @@ urlpatterns = [
     # 命名空间：namespace
     path('', include(('users.urls', 'users'), namespace='users')),
     # path('',log),
+
+    path('', include(('home.urls', 'home'), namespace='home')),
 ]

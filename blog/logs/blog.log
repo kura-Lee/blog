@@ -375,3 +375,343 @@ INFO 2021-06-10 13:03:21,868 basehttp 154 "GET /static/js/axios-0.18.0.min.js HT
 INFO 2021-06-10 13:03:21,869 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
 INFO 2021-06-10 13:03:21,878 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
 INFO 2021-06-10 13:03:21,882 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+INFO 2021-06-10 13:20:53,846 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:24:43,472 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:26:27,793 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:27:42,576 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:32:12,825 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:32:31,634 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:32:49,654 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 13:32:49,775 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-06-10 13:32:49,791 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-06-10 13:32:49,803 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-10 13:32:49,803 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-10 13:32:49,927 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-10 13:32:49,973 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-06-10 14:10:30,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:10:41,958 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 14:10:42,037 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,039 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,042 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,055 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,071 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,075 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,076 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:42,093 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-10 14:10:55,649 basehttp 154 "GET /register/ HTTP/1.1" 200 5350
+WARNING 2021-06-10 14:11:43,002 log 222 Not Found: /smscode/
+WARNING 2021-06-10 14:11:43,003 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=LRjh&uuid=27494ba9-0e86-4671-9539-4ba052e2569c HTTP/1.1" 404 2380
+WARNING 2021-06-10 14:12:15,039 log 222 Not Found: /smscode/
+WARNING 2021-06-10 14:12:15,040 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=LRjh&uuid=27494ba9-0e86-4671-9539-4ba052e2569c HTTP/1.1" 404 2380
+WARNING 2021-06-10 14:12:15,204 log 222 Not Found: /smscode/
+WARNING 2021-06-10 14:12:15,206 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=LRjh&uuid=27494ba9-0e86-4671-9539-4ba052e2569c HTTP/1.1" 404 2380
+WARNING 2021-06-10 14:12:15,410 log 222 Not Found: /smscode/
+WARNING 2021-06-10 14:12:15,412 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=LRjh&uuid=27494ba9-0e86-4671-9539-4ba052e2569c HTTP/1.1" 404 2380
+INFO 2021-06-10 14:14:44,709 basehttp 154 "GET /register/ HTTP/1.1" 200 5350
+INFO 2021-06-10 14:14:44,813 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:14:44,824 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:14:44,857 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:14:44,858 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:14:44,865 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:14:44,913 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+INFO 2021-06-10 14:23:07,578 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:23:12,801 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:23:12,856 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:23:12,868 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:23:12,871 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:23:12,874 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:23:12,876 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-06-10 14:23:12,934 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 14:23:12,935 basehttp 154 "GET /imagecode/?uuid=8c747032-ed1a-4fed-a1e5-e190679972dc HTTP/1.1" 404 2343
+WARNING 2021-06-10 14:23:16,737 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 14:23:16,737 basehttp 154 "GET /imagecode/?uuid=f4f3ebd2-0d12-48f4-9c6b-5f82a4c6c18b HTTP/1.1" 404 2343
+WARNING 2021-06-10 14:23:18,808 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 14:23:18,808 basehttp 154 "GET /imagecode/?uuid=1cce78dd-5f6e-454c-8778-99cf53dc15bb HTTP/1.1" 404 2343
+WARNING 2021-06-10 14:23:19,175 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 14:23:19,176 basehttp 154 "GET /imagecode/?uuid=f6ac334e-145f-465a-ae11-d1e52a4a72b2 HTTP/1.1" 404 2343
+WARNING 2021-06-10 14:23:21,757 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 14:23:21,758 basehttp 154 "GET /imagecode/?uuid=5fe64c6a-11cc-4b21-b94f-69d8e28d9f25 HTTP/1.1" 404 2343
+INFO 2021-06-10 14:28:47,189 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:28:50,923 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:28:50,953 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:28:50,955 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:28:50,960 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:28:50,962 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:28:50,964 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:28:51,339 basehttp 154 "GET /imagecode/?uuid=193717ac-2f16-4388-8aea-2adc8acdeae6 HTTP/1.1" 200 3350
+INFO 2021-06-10 14:28:53,077 basehttp 154 "GET /imagecode/?uuid=67e9c9b3-22a8-4fe7-ac3d-ce086c846351 HTTP/1.1" 200 3005
+INFO 2021-06-10 14:28:55,701 basehttp 154 "GET /imagecode/?uuid=b51dcf46-4616-4974-b1a2-ef389a35351e HTTP/1.1" 200 3089
+INFO 2021-06-10 14:28:57,174 basehttp 154 "GET /imagecode/?uuid=93dd621a-b914-4ce4-8f6c-1753c23abb0e HTTP/1.1" 200 3414
+INFO 2021-06-10 14:29:24,837 views 168 387572
+INFO 2021-06-10 14:29:25,138 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=nwrt&uuid=93dd621a-b914-4ce4-8f6c-1753c23abb0e HTTP/1.1" 200 69
+INFO 2021-06-10 14:29:43,163 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-06-10 14:29:43,326 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 14:33:41,416 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-10 14:33:41,897 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:34:30,040 basehttp 154 "GET /static/detail.html HTTP/1.1" 200 8816
+INFO 2021-06-10 14:34:30,211 basehttp 154 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-06-10 14:34:30,217 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-06-10 14:34:30,253 basehttp 154 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-06-10 14:34:30,282 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-06-10 14:34:30,477 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2021-06-10 14:34:31,068 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-06-10 14:34:31,115 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css?t=I3I8 HTTP/1.1" 200 47002
+INFO 2021-06-10 14:34:31,122 basehttp 154 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-06-10 14:34:31,135 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-06-10 14:34:31,151 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-06-10 14:34:31,165 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-06-10 14:34:31,243 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-06-10 14:34:31,249 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-06-10 14:34:31,277 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-06-10 14:34:31,282 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-06-10 14:34:31,293 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-06-10 14:34:31,348 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-06-10 14:34:31,429 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-06-10 14:34:31,437 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-06-10 14:34:31,543 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-06-10 14:34:31,550 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2021-06-10 14:34:59,365 basehttp 154 "GET /static/center.html HTTP/1.1" 200 4136
+INFO 2021-06-10 14:34:59,521 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-06-10 14:34:59,532 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-06-10 14:36:43,768 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:37:10,659 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:37:10,921 basehttp 154 "GET /imagecode/?uuid=07de4f06-585f-4496-9ce3-2c538985beb8 HTTP/1.1" 200 3233
+INFO 2021-06-10 14:45:41,271 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-10 14:45:48,949 exception 75 Invalid HTTP_HOST header: '192.168.77.22:8000'. You may need to add '192.168.77.22' to ALLOWED_HOSTS.
+WARNING 2021-06-10 14:45:49,147 log 222 Bad Request: /
+WARNING 2021-06-10 14:45:49,156 basehttp 154 "GET / HTTP/1.1" 400 66265
+ERROR 2021-06-10 14:45:49,808 exception 75 Invalid HTTP_HOST header: '192.168.77.22:8000'. You may need to add '192.168.77.22' to ALLOWED_HOSTS.
+WARNING 2021-06-10 14:45:49,861 log 222 Bad Request: /favicon.ico
+WARNING 2021-06-10 14:45:49,865 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 66448
+INFO 2021-06-10 14:48:16,606 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-10 14:49:30,054 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:49:34,908 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 14:49:34,995 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-06-10 14:49:34,998 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-10 14:49:35,005 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-10 14:49:35,024 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-06-10 14:49:35,047 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-10 14:49:35,070 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-10 14:49:35,073 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-06-10 14:49:35,107 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-10 14:49:35,171 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-10 14:49:35,234 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-06-10 14:49:35,304 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-10 14:49:35,336 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-06-10 14:49:39,646 log 222 Not Found: /favicon.ico
+WARNING 2021-06-10 14:49:39,648 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2654
+INFO 2021-06-10 14:50:03,279 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2021-06-10 14:50:03,331 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:50:03,451 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+ERROR 2021-06-10 14:51:49,527 exception 75 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2021-06-10 14:51:49,561 log 222 Bad Request: /register/
+WARNING 2021-06-10 14:51:49,562 basehttp 154 "GET /register/ HTTP/1.1" 400 66726
+INFO 2021-06-10 14:52:01,661 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-10 14:52:12,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 14:52:18,601 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:52:18,642 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-10 14:52:18,643 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-10 14:52:18,643 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-10 14:52:18,696 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:52:18,696 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:52:18,728 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:52:18,913 basehttp 154 "GET /imagecode/?uuid=7404740a-4743-48a5-94e9-8a5cfaa91174 HTTP/1.1" 200 2908
+INFO 2021-06-10 14:52:31,882 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:52:43,986 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:53:06,509 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:53:06,549 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:06,551 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:06,552 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:06,554 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:06,560 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:06,627 basehttp 154 "GET /imagecode/?uuid=56354ab2-44af-421a-a08b-0530f9e977ac HTTP/1.1" 200 2785
+INFO 2021-06-10 14:53:21,204 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:53:21,242 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:21,244 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:21,245 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:21,247 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:21,250 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:53:21,328 basehttp 154 "GET /imagecode/?uuid=08b72060-5ae1-4b9c-bc4a-2c3c5a59416c HTTP/1.1" 200 3055
+INFO 2021-06-10 14:54:03,027 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:54:03,096 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-10 14:54:03,098 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-06-10 14:54:03,106 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-10 14:54:03,111 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-06-10 14:54:03,112 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-10 14:54:03,113 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-10 14:54:03,246 basehttp 154 "GET /imagecode/?uuid=c98d38bb-791d-46d4-a37c-71fb31cc77c9 HTTP/1.1" 200 3271
+WARNING 2021-06-10 14:54:03,260 log 222 Not Found: /favicon.ico
+WARNING 2021-06-10 14:54:03,261 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2654
+INFO 2021-06-10 14:54:17,327 basehttp 154 "GET /imagecode/?uuid=c98d38bb-791d-46d4-a37c-71fb31cc77c9 HTTP/1.1" 200 2735
+INFO 2021-06-10 14:56:27,503 basehttp 154 "GET /imagecode/?uuid=c98d38bb-791d-46d4-a37c-71fb31cc77c9 HTTP/1.1" 200 3043
+INFO 2021-06-10 14:56:35,916 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:56:52,349 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:56:52,403 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:56:52,408 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-10 14:56:52,414 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-10 14:56:52,417 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-06-10 14:56:52,419 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-10 14:56:52,546 basehttp 154 "GET /imagecode/?uuid=0613773f-2d03-4765-9df1-74b1147c3c91 HTTP/1.1" 200 3385
+INFO 2021-06-10 14:57:04,331 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:57:52,678 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:57:52,721 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:57:52,722 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:57:52,724 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:57:52,725 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:57:52,726 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:57:52,813 basehttp 154 "GET /imagecode/?uuid=5a3a926d-f42c-4110-8415-29c2c03fbec6 HTTP/1.1" 200 3572
+WARNING 2021-06-10 14:57:57,923 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-10 14:57:58,484 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-10 14:59:21,308 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 14:59:21,349 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:59:21,350 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:59:21,352 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:59:21,357 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:59:21,357 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 14:59:21,466 basehttp 154 "GET /imagecode/?uuid=143c5353-e630-4be7-9314-2e452a9fbb29 HTTP/1.1" 200 3044
+INFO 2021-06-10 14:59:26,403 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+WARNING 2021-06-10 14:59:32,702 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-10 14:59:33,102 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-10 15:00:10,374 basehttp 154 "GET /imagecode/?uuid=2b257c8e-f357-46f2-8b73-100ced6e51ee HTTP/1.1" 200 3332
+INFO 2021-06-10 15:09:53,704 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:09:53,753 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:53,776 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:53,776 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:53,789 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:53,789 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:53,857 basehttp 154 "GET /imagecode/?uuid=6ac87cc7-ada9-4771-b122-ea032f912c89 HTTP/1.1" 200 3024
+INFO 2021-06-10 15:09:54,733 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:09:54,782 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:54,783 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:54,783 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:54,785 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:54,785 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:54,899 basehttp 154 "GET /imagecode/?uuid=3da9b4cc-d6ef-4bff-9600-4677de99571b HTTP/1.1" 200 2786
+INFO 2021-06-10 15:09:55,664 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:09:55,701 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:55,702 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:55,709 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:55,713 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:55,714 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:55,881 basehttp 154 "GET /imagecode/?uuid=0ef7b566-2fa4-4b06-a294-5496db62012a HTTP/1.1" 200 3590
+INFO 2021-06-10 15:09:56,862 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:09:56,923 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:56,929 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:56,930 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:56,934 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:56,935 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:09:57,033 basehttp 154 "GET /imagecode/?uuid=ea774921-ecb6-4387-b56c-e5599c8d64f3 HTTP/1.1" 200 3074
+INFO 2021-06-10 15:09:58,580 basehttp 154 "GET /imagecode/?uuid=f9a309f0-ab18-4812-ba96-1eacb440a719 HTTP/1.1" 200 3399
+INFO 2021-06-10 15:09:59,016 basehttp 154 "GET /imagecode/?uuid=6c885537-4707-4757-b0ff-cfae55f71dea HTTP/1.1" 200 2872
+INFO 2021-06-10 15:09:59,372 basehttp 154 "GET /imagecode/?uuid=7e773dfc-f71f-406c-9587-02f074bd43d4 HTTP/1.1" 200 3664
+INFO 2021-06-10 15:09:59,611 basehttp 154 "GET /imagecode/?uuid=d2bf445e-0b4c-4b39-9aca-50e1a6cd3740 HTTP/1.1" 200 3279
+INFO 2021-06-10 15:09:59,875 basehttp 154 "GET /imagecode/?uuid=85cdc556-89d7-4e2b-aed2-d32e5964911c HTTP/1.1" 200 3050
+INFO 2021-06-10 15:10:00,032 basehttp 154 "GET /imagecode/?uuid=409622e6-c9ce-4984-90cf-c7e15b13cf8d HTTP/1.1" 200 3354
+INFO 2021-06-10 15:10:00,244 basehttp 154 "GET /imagecode/?uuid=3d084921-5647-4cf5-8818-487147f4c3f2 HTTP/1.1" 200 3203
+INFO 2021-06-10 15:10:00,418 basehttp 154 "GET /imagecode/?uuid=bc662ca6-a8d8-415f-89e1-7786c8bedc1c HTTP/1.1" 200 3053
+INFO 2021-06-10 15:10:20,187 basehttp 154 "GET /static/login.html HTTP/1.1" 200 3106
+INFO 2021-06-10 15:10:20,494 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-06-10 15:11:05,784 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-10 15:11:06,317 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-10 15:11:50,341 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 15:11:55,629 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:11:55,937 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:11:55,939 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:11:55,940 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:11:55,942 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:11:55,943 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:11:56,552 basehttp 154 "GET /imagecode/?uuid=e4cfde88-52a2-4915-9f26-b3444ebf827d HTTP/1.1" 200 2982
+INFO 2021-06-10 15:11:56,759 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-10 15:12:34,959 views 168 873952
+INFO 2021-06-10 15:12:36,196 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=nze7&uuid=e4cfde88-52a2-4915-9f26-b3444ebf827d HTTP/1.1" 200 69
+ERROR 2021-06-10 15:12:57,604 views 66 (1062, "Duplicate entry '17623353260' for key 'tb_users.username'")
+WARNING 2021-06-10 15:12:57,615 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:12:57,618 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-06-10 15:13:10,441 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:13:10,526 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-10 15:13:11,104 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-10 15:13:11,760 basehttp 154 "GET /imagecode/?uuid=4c636959-86f9-4990-be7c-8fc2ae0a21e8 HTTP/1.1" 200 3487
+INFO 2021-06-10 15:13:36,735 views 168 308852
+INFO 2021-06-10 15:13:37,986 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=jrty&uuid=4c636959-86f9-4990-be7c-8fc2ae0a21e8 HTTP/1.1" 200 69
+ERROR 2021-06-10 15:13:55,182 views 66 (1062, "Duplicate entry '17623353260' for key 'tb_users.username'")
+WARNING 2021-06-10 15:13:55,184 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:13:55,184 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-06-10 15:14:04,541 views 66 (1062, "Duplicate entry '17623353260' for key 'tb_users.username'")
+WARNING 2021-06-10 15:14:04,543 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:14:04,545 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-06-10 15:14:10,455 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2021-06-10 15:14:10,468 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:14:10,667 basehttp 154 "GET /imagecode/?uuid=700f199b-a20d-4797-a53a-2d90064e1909 HTTP/1.1" 200 3272
+INFO 2021-06-10 15:14:11,356 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-10 15:18:59,519 basehttp 154 "GET /imagecode/?uuid=e9f1f77b-f523-45ac-ad3c-59f3c8cd83d7 HTTP/1.1" 200 3204
+INFO 2021-06-10 15:19:08,080 views 168 467326
+INFO 2021-06-10 15:19:08,847 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=svij&uuid=e9f1f77b-f523-45ac-ad3c-59f3c8cd83d7 HTTP/1.1" 200 69
+WARNING 2021-06-10 15:19:24,131 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:19:24,132 basehttp 154 "POST /register/ HTTP/1.1" 400 24
+WARNING 2021-06-10 15:19:33,267 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:19:33,270 basehttp 154 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-06-10 15:19:36,050 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:19:36,259 basehttp 154 "GET /imagecode/?uuid=0ec047e6-496a-4076-8ef4-a41e6911ce86 HTTP/1.1" 200 3173
+INFO 2021-06-10 15:19:36,696 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-10 15:19:58,576 views 168 271472
+INFO 2021-06-10 15:19:59,443 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=dsvi&uuid=0ec047e6-496a-4076-8ef4-a41e6911ce86 HTTP/1.1" 200 69
+ERROR 2021-06-10 15:20:16,516 views 66 (1062, "Duplicate entry '17623353260' for key 'tb_users.username'")
+WARNING 2021-06-10 15:20:16,523 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:20:16,526 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-06-10 15:21:26,022 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:21:26,371 basehttp 154 "GET /imagecode/?uuid=1f4f02b3-b2bc-46cd-96af-8f032fcd8133 HTTP/1.1" 200 3372
+INFO 2021-06-10 15:21:26,914 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-10 15:21:47,295 views 168 488768
+INFO 2021-06-10 15:21:49,357 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=zm6f&uuid=1f4f02b3-b2bc-46cd-96af-8f032fcd8133 HTTP/1.1" 200 69
+INFO 2021-06-10 15:22:44,651 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-06-10 15:22:44,804 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 15:22:44,958 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-10 15:22:44,975 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-06-10 15:22:45,221 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-06-10 15:22:46,408 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:33,721 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 15:29:38,802 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-10 15:29:38,890 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,893 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,895 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,897 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,902 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,904 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,904 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:29:38,930 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-10 15:30:30,048 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:30:30,254 basehttp 154 "GET /imagecode/?uuid=b428b14c-7059-4e3b-a1ab-e186933719dc HTTP/1.1" 200 3472
+INFO 2021-06-10 15:32:55,865 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 15:33:02,867 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:33:02,947 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:33:02,954 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:33:02,954 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:33:02,955 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:33:02,957 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:33:03,100 basehttp 154 "GET /imagecode/?uuid=cb2d90c0-5f8c-455c-a82e-5721117b57ef HTTP/1.1" 200 3398
+INFO 2021-06-10 15:33:23,247 views 172 707394
+INFO 2021-06-10 15:33:23,803 basehttp 154 "GET /smscode/?mobile=17623353260&image_code=xesc&uuid=cb2d90c0-5f8c-455c-a82e-5721117b57ef HTTP/1.1" 200 69
+ERROR 2021-06-10 15:33:31,050 views 66 (1062, "Duplicate entry '17623353260' for key 'tb_users.username'")
+WARNING 2021-06-10 15:33:31,051 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:33:31,053 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-06-10 15:34:03,210 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 15:34:06,285 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:34:06,546 basehttp 154 "GET /imagecode/?uuid=c490cc17-bc6d-4085-a8b9-16b2a86aaa1e HTTP/1.1" 200 3297
+INFO 2021-06-10 15:34:32,998 views 172 503973
+INFO 2021-06-10 15:34:34,153 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=HDQR&uuid=c490cc17-bc6d-4085-a8b9-16b2a86aaa1e HTTP/1.1" 200 69
+ERROR 2021-06-10 15:34:40,733 views 66 (1062, "Duplicate entry '15708170445' for key 'tb_users.username'")
+WARNING 2021-06-10 15:34:40,736 log 222 Bad Request: /register/
+WARNING 2021-06-10 15:34:40,737 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-06-10 15:40:20,941 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 15:41:09,342 basehttp 154 "GET /imagecode/?uuid=7ade2b04-f812-4b9e-b167-b08b9f041ae9 HTTP/1.1" 200 2975
+INFO 2021-06-10 15:41:11,912 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 15:41:12,023 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:41:12,026 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:41:12,030 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:41:12,037 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:41:12,043 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 15:41:12,231 basehttp 154 "GET /imagecode/?uuid=cb692168-a4fc-4478-8011-21dcdd206369 HTTP/1.1" 200 2979
+INFO 2021-06-10 15:41:41,197 views 172 042326
+INFO 2021-06-10 15:41:42,234 basehttp 154 "GET /smscode/?mobile=15708170444&image_code=vpgf&uuid=cb692168-a4fc-4478-8011-21dcdd206369 HTTP/1.1" 200 69
+INFO 2021-06-10 15:42:12,480 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-06-10 15:42:14,725 basehttp 154 "GET / HTTP/1.1" 200 11962

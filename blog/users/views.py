@@ -3,12 +3,12 @@ from django.shortcuts import render
 # Create your views here.
 
 from django.views import View
-
 from django.http.response import HttpResponseBadRequest
 import re
 from users.models import User
 from django.db import DatabaseError
-
+from django.shortcuts import redirect
+from django.urls import reverse
 
 # 注册视图
 class RegisterView(View):
@@ -65,10 +65,19 @@ class RegisterView(View):
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest('注册失败')
+        # 状态保持
+        from django.contrib.auth import login
+        login(request, user)
         # 4.保存响应，跳转页面
         #暂时返回一个注册成功的信息,后期再实现跳转到指定页面
-        return HttpResponseBadRequest('注册成功,重定向到首页')
-
+        # return HttpResponseBadRequest('注册成功,重定向到首页')
+        # redirect 进行重定向
+        # reverse 通过namespase：name 获取到视图对应的路由
+        response = redirect(reverse('home:index'))
+        #设置cookie信息，方便用户信息展示的判断和用户信息的展示
+        response.set_cookie('is_login',True)
+        response.set_cookie('username',user.username,max_age=7*24*3600)
+        return response
 
 # 图片验证码视图
 from django.http.response import HttpResponseBadRequest
@@ -105,7 +114,7 @@ class ImageCodeView(View):
         # value text
         redis_conn.setex('img:%s' % uuid, 300, text)
         # 返回图片二进制文件
-        return HttpResponse(image,content_type='image/jpeg')
+        return HttpResponse(image, content_type='image/jpeg')
 
 # 短信验证码视图
 from django.http.response import JsonResponse

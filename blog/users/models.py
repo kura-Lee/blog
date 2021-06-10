@@ -19,6 +19,3 @@ class User(AbstractUser):
     def __str__(self):
         return self.mobile
 
-
-# Create your models here.
-
