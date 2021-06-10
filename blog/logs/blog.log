@@ -44,6 +44,7 @@ INFO 2021-06-09 12:47:12,176 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 
 INFO 2021-06-09 12:47:12,177 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
 INFO 2021-06-09 12:47:12,181 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
 INFO 2021-06-09 12:47:12,488 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+<<<<<<< HEAD
 INFO 2021-06-09 14:29:23,698 autoreload 597 Watching for file changes with StatReloader
 INFO 2021-06-09 14:32:03,348 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
 INFO 2021-06-09 14:32:05,044 autoreload 597 Watching for file changes with StatReloader
@@ -308,3 +309,69 @@ INFO 2021-06-10 12:14:03,009 views 159 961311
 INFO 2021-06-10 12:14:03,277 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=S6LO&uuid=98f6ec00-c239-479e-add7-927ef13bf0a9 HTTP/1.1" 200 69
 WARNING 2021-06-10 12:14:15,965 log 222 Bad Request: /register/
 WARNING 2021-06-10 12:14:15,966 basehttp 154 "POST /register/ HTTP/1.1" 400 31
+=======
+>>>>>>> a1d157b356422f50048ceddc3e2a422e0852a3cb
+INFO 2021-06-10 12:43:46,396 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:45:08,751 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:47:00,021 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:50:56,420 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-10 12:51:03,728 log 222 Bad Request: /register/
+WARNING 2021-06-10 12:51:03,729 basehttp 154 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-06-10 12:51:09,166 basehttp 154 "GET /register/ HTTP/1.1" 200 5617
+INFO 2021-06-10 12:51:09,413 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+WARNING 2021-06-10 12:51:09,711 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:51:09,711 basehttp 154 "GET /imagecode/?uuid=a896dc53-7ad8-4142-ac71-e02591313624 HTTP/1.1" 404 2182
+INFO 2021-06-10 12:52:34,003 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:52:38,641 basehttp 154 "GET /register/ HTTP/1.1" 200 5477
+INFO 2021-06-10 12:52:38,673 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:52:38,676 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:52:38,681 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:52:38,682 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:52:38,682 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:52:38,697 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+WARNING 2021-06-10 12:52:38,723 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:38,723 basehttp 154 "GET /imagecode/?uuid=799eb779-3af1-44f3-a881-d2a5f04a2047 HTTP/1.1" 404 2182
+INFO 2021-06-10 12:52:41,498 basehttp 154 "GET /register/ HTTP/1.1" 200 5477
+WARNING 2021-06-10 12:52:41,591 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:41,591 basehttp 154 "GET /imagecode/?uuid=30348569-40a9-4272-951f-16b9588fcd7e HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:52:48,180 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:48,180 basehttp 154 "GET /imagecode/?uuid=a0e0be20-778e-442a-970f-3aeb32ccd077 HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:52:48,870 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:48,871 basehttp 154 "GET /imagecode/?uuid=f4642770-d154-494c-bb51-bad024ab59fb HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:52:49,581 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:49,581 basehttp 154 "GET /imagecode/?uuid=2a2e996f-68c6-40f8-9cdf-dc515e6f591b HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:52:50,133 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:52:50,133 basehttp 154 "GET /imagecode/?uuid=a4ac765a-f2dc-4bbe-8742-c9f1ed1ba574 HTTP/1.1" 404 2182
+INFO 2021-06-10 12:53:59,049 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:54:13,434 basehttp 154 "GET /register/ HTTP/1.1" 200 5476
+INFO 2021-06-10 12:54:13,468 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:54:13,474 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:54:13,478 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:54:13,479 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:54:13,482 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 12:54:13,499 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+WARNING 2021-06-10 12:54:13,543 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:13,544 basehttp 154 "GET /imagecode/?uuid=b6312a47-7c8e-4c65-8d46-64c2102f6579 HTTP/1.1" 404 2182
+INFO 2021-06-10 12:54:19,551 basehttp 154 "GET /register/ HTTP/1.1" 200 5476
+WARNING 2021-06-10 12:54:19,646 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:19,646 basehttp 154 "GET /imagecode/?uuid=f0ff01df-6ab3-4304-b2a6-468c12c3f530 HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:22,878 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:22,879 basehttp 154 "GET /imagecode/?uuid=9be7079b-e6c3-423d-9499-0173c5e9b341 HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:23,560 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:23,561 basehttp 154 "GET /imagecode/?uuid=d499903d-0b4b-4a08-af40-c6c09fa8063d HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:27,401 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:27,401 basehttp 154 "GET /imagecode/?uuid=76802c1c-611a-4025-a0a4-3bf370b7d3c1 HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:28,154 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:28,154 basehttp 154 "GET /imagecode/?uuid=31561793-5ae2-4607-92ad-79c157005d3e HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:31,519 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:31,520 basehttp 154 "GET /imagecode/?uuid=065ee442-a299-496d-8dc4-24d7095c74c6 HTTP/1.1" 404 2182
+WARNING 2021-06-10 12:54:33,688 log 222 Not Found: /imagecode/
+WARNING 2021-06-10 12:54:33,688 basehttp 154 "GET /imagecode/?uuid=92aeb80e-b338-44c4-b468-93f30ed7acf4 HTTP/1.1" 404 2182
+INFO 2021-06-10 13:03:18,525 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 13:03:21,804 basehttp 154 "GET /register/ HTTP/1.1" 200 5379
+INFO 2021-06-10 13:03:21,845 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 13:03:21,863 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 13:03:21,868 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 13:03:21,869 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 13:03:21,878 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 13:03:21,882 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0

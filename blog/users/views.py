@@ -3,14 +3,18 @@ from django.shortcuts import render
 # Create your views here.
 
 from django.views import View
+
 from django.http.response import HttpResponseBadRequest
 import re
 from users.models import User
 from django.db import DatabaseError
+
+
 # 注册视图
 class RegisterView(View):
 
     def get(self, request):
+
 
         return render(request, 'register.html')
     def post(self,request):
