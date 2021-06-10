@@ -44,3 +44,267 @@ INFO 2021-06-09 12:47:12,176 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 
 INFO 2021-06-09 12:47:12,177 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
 INFO 2021-06-09 12:47:12,181 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
 INFO 2021-06-09 12:47:12,488 basehttp 154 "GET /static/img/image_code.png HTTP/1.1" 304 0
+INFO 2021-06-09 14:29:23,698 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 14:32:03,348 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-09 14:32:05,044 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 14:32:10,712 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 14:35:42,740 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 14:40:52,793 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-09 14:43:38,489 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:44:01,835 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96030
+INFO 2021-06-09 14:44:51,338 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 14:45:18,905 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-09 14:48:08,844 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:49:23,516 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96152
+ERROR 2021-06-09 14:50:50,119 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:51:16,860 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96142
+ERROR 2021-06-09 14:52:06,376 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:52:06,384 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96169
+INFO 2021-06-09 14:52:13,806 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-09 14:54:06,573 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:54:33,702 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96143
+ERROR 2021-06-09 14:56:21,275 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:56:21,287 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96196
+ERROR 2021-06-09 14:59:00,240 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:59:05,627 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96176
+ERROR 2021-06-09 14:59:26,661 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:59:26,662 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96154
+ERROR 2021-06-09 14:59:30,175 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 14:59:30,176 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 96176
+INFO 2021-06-09 15:04:44,246 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-09 15:05:05,833 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 42, in get
+    redis_conn = get_redis_connection('defalut')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/cache/__init__.py", line 75, in __getitem__
+    raise InvalidCacheBackendError(
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'defalut' in settings.CACHES
+ERROR 2021-06-09 15:05:05,834 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 500 91668
+INFO 2021-06-09 15:06:28,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 15:06:35,736 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 3304
+INFO 2021-06-09 15:06:47,760 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 15:06:53,364 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 2917
+INFO 2021-06-09 15:07:41,063 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 3210
+INFO 2021-06-09 15:12:20,526 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-09 15:12:24,219 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 2761
+INFO 2021-06-09 15:12:26,770 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 3395
+INFO 2021-06-09 15:12:41,825 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-06-09 15:12:44,286 basehttp 154 "GET /imagecode/?uuid=094c0dcd-5937-42b8-ba52-e3c7e70d8f16 HTTP/1.1" 200 3275
+INFO 2021-06-09 15:12:52,410 basehttp 154 "GET /imagecode/?uuid=964e917d-b9ca-4803-8db7-b1508c08c796 HTTP/1.1" 200 2850
+INFO 2021-06-09 15:12:53,400 basehttp 154 "GET /imagecode/?uuid=c1b7c1be-3a7f-45bc-8bd3-ab4a50b91c03 HTTP/1.1" 200 3405
+INFO 2021-06-09 15:12:54,108 basehttp 154 "GET /imagecode/?uuid=c9b1efdb-a6e6-42d9-aaa7-06cef7827c25 HTTP/1.1" 200 3790
+INFO 2021-06-09 15:12:54,614 basehttp 154 "GET /imagecode/?uuid=e1d7086b-3e62-465b-a37b-e6eba12f98f6 HTTP/1.1" 200 3108
+INFO 2021-06-10 10:26:20,151 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-10 10:26:36,768 log 222 Not Found: /
+WARNING 2021-06-10 10:26:36,768 basehttp 154 "GET / HTTP/1.1" 404 2267
+INFO 2021-06-10 10:26:54,542 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-06-10 10:26:56,123 basehttp 154 "GET /imagecode/?uuid=fd4f1e42-9329-48dc-82b6-03b0b29d3aac HTTP/1.1" 200 3648
+INFO 2021-06-10 10:27:28,325 basehttp 154 "GET /imagecode/?uuid=7402e337-adb5-455f-9ab7-1b4ace86d3d5 HTTP/1.1" 200 3068
+INFO 2021-06-10 10:31:22,153 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/urls.py changed, reloading.
+INFO 2021-06-10 10:31:24,192 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 10:32:35,818 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/urls.py changed, reloading.
+INFO 2021-06-10 10:32:36,773 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 10:32:48,490 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 10:33:31,405 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 10:33:40,757 basehttp 154 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-06-10 10:33:40,786 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-10 10:33:40,786 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-10 10:33:40,792 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-10 10:33:40,797 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-10 10:33:40,828 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-10 10:33:40,904 basehttp 154 "GET /imagecode/?uuid=ff983399-08f1-4418-bfe2-e12fb1a1dc51 HTTP/1.1" 200 3533
+INFO 2021-06-10 10:34:02,730 basehttp 154 "GET /imagecode/?uuid=73e6a5f0-3f0f-4537-a8ce-62d3adca1b65 HTTP/1.1" 200 2878
+INFO 2021-06-10 10:36:53,841 views 104 368166
+INFO 2021-06-10 10:37:17,587 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=ZKIS&uuid=73e6a5f0-3f0f-4537-a8ce-62d3adca1b65 HTTP/1.1" 200 69
+INFO 2021-06-10 12:08:03,007 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-10 12:09:22,564 basehttp 154 "GET /imagecode/?uuid=b2d3e8c5-13fc-4e00-a755-59f12bddac10 HTTP/1.1" 200 3342
+INFO 2021-06-10 12:09:28,927 views 159 237384
+INFO 2021-06-10 12:09:29,224 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=6asr&uuid=b2d3e8c5-13fc-4e00-a755-59f12bddac10 HTTP/1.1" 200 69
+WARNING 2021-06-10 12:10:09,118 log 222 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-06-10 12:10:09,119 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2021-06-10 12:13:10,489 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-10 12:13:27,631 log 222 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-06-10 12:13:27,631 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+WARNING 2021-06-10 12:13:30,707 log 222 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-06-10 12:13:30,708 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2021-06-10 12:13:36,382 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-10 12:13:36,793 basehttp 154 "GET /imagecode/?uuid=cbfbf70d-7d94-404d-90ef-b342d31d7aa7 HTTP/1.1" 200 2983
+INFO 2021-06-10 12:13:52,806 basehttp 154 "GET /imagecode/?uuid=98f6ec00-c239-479e-add7-927ef13bf0a9 HTTP/1.1" 200 3415
+INFO 2021-06-10 12:14:03,009 views 159 961311
+INFO 2021-06-10 12:14:03,277 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=S6LO&uuid=98f6ec00-c239-479e-add7-927ef13bf0a9 HTTP/1.1" 200 69
+WARNING 2021-06-10 12:14:15,965 log 222 Bad Request: /register/
+WARNING 2021-06-10 12:14:15,966 basehttp 154 "POST /register/ HTTP/1.1" 400 31
