@@ -715,3 +715,589 @@ INFO 2021-06-10 15:41:41,197 views 172 042326
 INFO 2021-06-10 15:41:42,234 basehttp 154 "GET /smscode/?mobile=15708170444&image_code=vpgf&uuid=cb692168-a4fc-4478-8011-21dcdd206369 HTTP/1.1" 200 69
 INFO 2021-06-10 15:42:12,480 basehttp 154 "POST /register/ HTTP/1.1" 302 0
 INFO 2021-06-10 15:42:14,725 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-11 09:41:38,910 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 09:42:27,377 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-11 09:42:27,656 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-11 09:42:27,698 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-11 09:42:28,070 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-11 09:42:29,315 basehttp 154 "GET /imagecode/?uuid=aa9f5ecc-b120-4227-b6a2-9df81357385f HTTP/1.1" 200 3006
+INFO 2021-06-11 09:42:36,089 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2021-06-11 09:42:37,014 basehttp 154 "GET /login/ HTTP/1.1" 200 3103
+INFO 2021-06-11 09:42:37,136 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+WARNING 2021-06-11 09:42:37,196 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 09:42:42,102 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-11 09:42:42,356 basehttp 154 "GET /imagecode/?uuid=9549ced3-bb48-4d80-a2a3-d361219ef4db HTTP/1.1" 200 3607
+INFO 2021-06-11 09:42:47,797 basehttp 154 "GET /static/forget_password.html HTTP/1.1" 200 5251
+INFO 2021-06-11 09:42:47,993 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2021-06-11 10:20:15,480 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 10:20:20,745 basehttp 154 "GET /login/ HTTP/1.1" 200 3103
+WARNING 2021-06-11 10:20:20,809 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:20:21,002 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:21:15,596 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-06-11 10:21:15,597 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 10:22:16,443 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-06-11 10:22:16,444 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 10:22:28,644 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-06-11 10:22:28,645 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-06-11 10:22:44,438 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 10:22:47,835 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-06-11 10:22:47,835 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 10:22:51,623 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-06-11 10:22:51,625 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-06-11 10:22:54,933 basehttp 154 "GET /login/ HTTP/1.1" 200 3245
+WARNING 2021-06-11 10:22:54,995 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:25:13,760 log 222 Bad Request: /login/
+WARNING 2021-06-11 10:25:13,763 basehttp 154 "POST /login/ HTTP/1.1" 400 21
+INFO 2021-06-11 10:26:53,672 basehttp 154 "GET /login/ HTTP/1.1" 200 3245
+WARNING 2021-06-11 10:26:53,742 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:26:54,114 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 10:27:01,335 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 10:27:39,481 log 222 Not Found: /log
+WARNING 2021-06-11 10:27:39,482 basehttp 154 "GET /log HTTP/1.1" 404 2793
+WARNING 2021-06-11 10:27:47,423 log 222 Not Found: /logn
+WARNING 2021-06-11 10:27:47,424 basehttp 154 "GET /logn HTTP/1.1" 404 2796
+WARNING 2021-06-11 10:27:59,047 log 222 Not Found: /lognin
+WARNING 2021-06-11 10:27:59,048 basehttp 154 "GET /lognin HTTP/1.1" 404 2802
+INFO 2021-06-11 10:28:49,697 basehttp 154 "GET /login/ HTTP/1.1" 200 3245
+WARNING 2021-06-11 10:28:49,734 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:28:49,764 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 10:30:10,054 log 222 Bad Request: /login/
+WARNING 2021-06-11 10:30:10,058 basehttp 154 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-06-11 10:34:55,735 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 10:35:44,683 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 10:35:47,114 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-11 10:35:47,322 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:35:47,330 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:35:47,335 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:35:47,336 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:35:47,443 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-06-11 10:35:47,449 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-11 10:35:47,457 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-11 10:35:47,459 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-06-11 10:35:47,466 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-11 10:35:47,598 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:35:48,120 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-06-11 10:38:25,701 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 10:40:29,471 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-11 10:40:32,715 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,717 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,730 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,732 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,733 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,734 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,735 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:32,784 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 10:40:41,771 basehttp 154 "GET /login/ HTTP/1.1" 200 3245
+WARNING 2021-06-11 10:40:43,381 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 10:41:02,200 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 10:41:02,210 basehttp 154 "GET / HTTP/1.1" 200 11962
+INFO 2021-06-11 10:52:18,612 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 10:52:19,751 basehttp 154 "GET / HTTP/1.1" 200 11938
+INFO 2021-06-11 10:52:19,794 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:19,800 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:19,801 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-06-11 10:52:19,807 basehttp 154 "GET /static/js/jquery-1.12.4.min.jss HTTP/1.1" 404 1696
+INFO 2021-06-11 10:52:19,807 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:19,810 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:19,812 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2021-06-11 10:52:19,821 basehttp 154 "GET /static/js/jquery-1.12.4.min.jss HTTP/1.1" 404 1696
+INFO 2021-06-11 10:52:19,827 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:55,848 basehttp 154 "GET / HTTP/1.1" 200 11938
+INFO 2021-06-11 10:52:55,876 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:55,881 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:55,883 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:55,883 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2021-06-11 10:52:55,884 basehttp 154 "GET /static/js/jquery-1.12.4.min.jss HTTP/1.1" 404 1696
+INFO 2021-06-11 10:52:55,893 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 10:52:55,894 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+WARNING 2021-06-11 10:52:55,914 basehttp 154 "GET /static/js/jquery-1.12.4.min.jss HTTP/1.1" 404 1696
+INFO 2021-06-11 10:52:55,920 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 11:05:28,488 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 11:06:39,509 basehttp 154 "GET / HTTP/1.1" 200 11937
+INFO 2021-06-11 11:06:39,546 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,553 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,561 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,566 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,568 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,568 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,570 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:06:39,586 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 11:19:57,523 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 11:20:02,412 basehttp 154 "GET / HTTP/1.1" 200 11937
+INFO 2021-06-11 11:27:26,488 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 11:27:31,017 basehttp 154 "GET / HTTP/1.1" 200 11944
+INFO 2021-06-11 11:27:31,069 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:31,070 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:31,078 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:31,079 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:31,079 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
+INFO 2021-06-11 11:27:31,079 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:31,080 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:27:32,791 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 11:50:12,789 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-11 11:50:19,304 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 7, in get
+    return render(request, 'index.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users.login' not found. 'users.login' is not a valid view function or pattern name.
+ERROR 2021-06-11 11:50:19,308 basehttp 154 "GET / HTTP/1.1" 500 136328
+ERROR 2021-06-11 11:52:38,721 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 7, in get
+    return render(request, 'index.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'users.login' not found. 'users.login' is not a valid view function or pattern name.
+ERROR 2021-06-11 11:52:38,722 basehttp 154 "GET / HTTP/1.1" 500 136328
+INFO 2021-06-11 11:55:13,139 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/urls.py changed, reloading.
+INFO 2021-06-11 11:55:13,488 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 11:55:14,096 basehttp 154 "GET / HTTP/1.1" 200 11927
+INFO 2021-06-11 11:55:14,127 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,131 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,134 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,137 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,143 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,144 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,145 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 11:55:14,145 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:06:30,351 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-11 12:06:30,388 basehttp 154 "GET / HTTP/1.1" 200 11927
+INFO 2021-06-11 12:06:30,420 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:06:52,170 basehttp 154 "GET /login/ HTTP/1.1" 200 3245
+WARNING 2021-06-11 12:06:52,343 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 12:18:40,553 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 12:19:04,675 log 222 Not Found: /lforgetpassword
+WARNING 2021-06-11 12:19:04,676 basehttp 154 "GET /lforgetpassword HTTP/1.1" 404 3183
+INFO 2021-06-11 12:19:12,271 basehttp 154 "GET /forgetpassword HTTP/1.1" 301 0
+INFO 2021-06-11 12:19:12,289 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5214
+INFO 2021-06-11 12:26:03,886 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 12:26:13,699 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5181
+INFO 2021-06-11 12:26:13,731 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:13,733 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:13,733 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:13,735 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:13,737 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 304 0
+WARNING 2021-06-11 12:26:13,739 log 222 Not Found: /forgetpassword/image_code_url
+WARNING 2021-06-11 12:26:13,740 basehttp 154 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3225
+WARNING 2021-06-11 12:26:13,798 log 222 Not Found: /forgetpassword/image_code_url
+WARNING 2021-06-11 12:26:13,798 basehttp 154 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3225
+INFO 2021-06-11 12:26:56,182 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5181
+INFO 2021-06-11 12:26:56,208 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:56,208 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:56,212 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+WARNING 2021-06-11 12:26:56,216 log 222 Not Found: /forgetpassword/image_code_url
+INFO 2021-06-11 12:26:56,221 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:26:56,222 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+WARNING 2021-06-11 12:26:56,222 basehttp 154 "GET /forgetpassword/image_code_url HTTP/1.1" 404 3225
+INFO 2021-06-11 12:27:47,690 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2021-06-11 12:27:47,721 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:27:47,723 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:27:47,725 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:27:47,727 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:27:47,729 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 12:27:48,160 basehttp 154 "GET /imagecode/?uuid=ff4642d1-979c-4e00-ad28-bea9327e815f HTTP/1.1" 200 3262
+INFO 2021-06-11 12:28:51,032 basehttp 154 "GET /imagecode/?uuid=4587f81d-60e1-44ea-b6f1-27719e942744 HTTP/1.1" 200 3138
+INFO 2021-06-11 12:28:51,809 basehttp 154 "GET /imagecode/?uuid=c398ffe1-3d87-42bd-b5e8-c7a187380235 HTTP/1.1" 200 3162
+INFO 2021-06-11 12:30:33,652 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 12:30:48,948 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 12:30:48,984 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 12:30:49,002 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 12:30:56,714 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2021-06-11 12:30:56,796 basehttp 154 "GET /imagecode/?uuid=a205036b-6c13-48dd-b69f-e8858e6f17bf HTTP/1.1" 200 3441
+INFO 2021-06-11 13:00:47,454 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:00:52,662 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5182
+INFO 2021-06-11 13:00:52,694 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:00:52,695 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:00:52,697 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:00:52,705 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:00:52,706 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:00:52,771 basehttp 154 "GET /imagecode/?uuid=df3883a5-967d-4d5c-8751-d32fb3c8518d HTTP/1.1" 200 3053
+INFO 2021-06-11 13:01:28,979 views 172 006165
+INFO 2021-06-11 13:01:37,948 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=vqef&uuid=df3883a5-967d-4d5c-8751-d32fb3c8518d HTTP/1.1" 200 69
+WARNING 2021-06-11 13:01:42,413 log 222 Forbidden (CSRF token missing or incorrect.): /forgetpassword/
+WARNING 2021-06-11 13:01:42,414 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 13:02:27,999 log 222 Forbidden (CSRF token missing or incorrect.): /forgetpassword/
+WARNING 2021-06-11 13:02:28,002 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 403 2513
+INFO 2021-06-11 13:02:31,618 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-06-11 13:02:31,700 basehttp 154 "GET /imagecode/?uuid=54a158c8-ee7f-4d8c-81e5-27261bf349a5 HTTP/1.1" 200 3179
+INFO 2021-06-11 13:02:49,617 views 172 546811
+INFO 2021-06-11 13:02:49,864 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=mtv4&uuid=54a158c8-ee7f-4d8c-81e5-27261bf349a5 HTTP/1.1" 200 69
+ERROR 2021-06-11 13:02:59,953 log 222 Internal Server Error: /forgetpassword/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 293, in post
+    if not re.match(r'^1[3-9]\d{9}$'):
+TypeError: match() missing 1 required positional argument: 'string'
+ERROR 2021-06-11 13:02:59,954 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 500 81169
+INFO 2021-06-11 13:04:12,935 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-11 13:04:13,293 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:04:17,633 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-06-11 13:04:17,729 basehttp 154 "GET /imagecode/?uuid=24581b16-aea4-41e4-a5b5-9dfa295be22b HTTP/1.1" 200 3285
+INFO 2021-06-11 13:04:35,824 views 172 381987
+INFO 2021-06-11 13:04:36,105 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=BDDW&uuid=24581b16-aea4-41e4-a5b5-9dfa295be22b HTTP/1.1" 200 69
+ERROR 2021-06-11 13:04:51,481 log 222 Internal Server Error: /forgetpassword/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 311, in post
+    user = User.objects.get(mobile)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1187, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2021-06-11 13:04:51,496 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 500 113809
+INFO 2021-06-11 13:05:55,717 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:07:46,257 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-11 13:07:47,072 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:07:54,854 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-06-11 13:07:54,906 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:07:54,908 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:07:54,918 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:07:54,918 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:07:54,922 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:07:55,038 basehttp 154 "GET /imagecode/?uuid=cde70c19-5cac-48e2-bc51-3c9ff93e75e6 HTTP/1.1" 200 2890
+INFO 2021-06-11 13:08:14,008 basehttp 154 "GET /imagecode/?uuid=f1c7ef44-c3cc-4bd7-ac0f-7552df44e444 HTTP/1.1" 200 3278
+INFO 2021-06-11 13:08:27,461 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=nlnt&uuid=f1c7ef44-c3cc-4bd7-ac0f-7552df44e444 HTTP/1.1" 200 72
+INFO 2021-06-11 13:08:27,508 basehttp 154 "GET /imagecode/?uuid=9a120630-ded7-4c57-bb39-796517dd15dd HTTP/1.1" 200 3274
+INFO 2021-06-11 13:08:36,964 views 172 328126
+INFO 2021-06-11 13:08:37,216 basehttp 154 "GET /smscode/?mobile=15708170445&image_code=wpzt&uuid=9a120630-ded7-4c57-bb39-796517dd15dd HTTP/1.1" 200 69
+INFO 2021-06-11 13:10:03,120 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 302 0
+INFO 2021-06-11 13:10:50,850 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 13:10:50,896 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 13:11:02,105 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 13:11:02,116 basehttp 154 "GET / HTTP/1.1" 200 11927
+INFO 2021-06-11 13:11:02,262 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
+INFO 2021-06-11 13:35:35,559 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:36:13,754 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:36:27,335 basehttp 154 "GET /center HTTP/1.1" 301 0
+INFO 2021-06-11 13:36:32,883 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 13:36:32,982 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-06-11 13:36:33,019 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-06-11 13:37:01,497 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 13:37:01,516 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:01,525 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:01,526 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:01,528 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:01,529 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:01,538 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:20,399 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:37:32,256 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 13:37:32,286 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:32,289 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:32,291 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:32,292 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:32,294 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:37:32,314 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:45,577 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 13:38:55,428 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 13:38:55,470 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:55,475 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:55,481 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:55,484 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:55,485 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 13:38:55,497 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+WARNING 2021-06-11 13:41:46,343 log 222 Not Found: /index
+WARNING 2021-06-11 13:41:46,344 basehttp 154 "GET /index HTTP/1.1" 404 3322
+INFO 2021-06-11 13:42:14,287 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 14:26:18,759 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:26:22,471 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 14:26:22,500 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:26:22,505 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:26:22,509 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:26:22,511 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:26:22,514 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:26:22,542 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+WARNING 2021-06-11 14:26:28,852 log 222 Not Found: /index
+WARNING 2021-06-11 14:26:28,853 basehttp 154 "GET /index HTTP/1.1" 404 3322
+INFO 2021-06-11 14:26:54,217 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:26:54,281 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:27:07,820 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-11 14:27:08,320 basehttp 154 "GET /imagecode/?uuid=0268d562-9950-4d36-b56f-3cf9d384edb0 HTTP/1.1" 200 3002
+INFO 2021-06-11 14:27:20,622 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:27:20,679 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 14:27:20,710 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 14:27:31,072 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-06-11 14:27:31,405 basehttp 154 "GET /imagecode/?uuid=b684a3da-c5bf-497d-9bc8-f97ebc0a7672 HTTP/1.1" 200 3446
+WARNING 2021-06-11 14:27:58,116 log 222 Not Found: /404
+WARNING 2021-06-11 14:27:58,117 basehttp 154 "GET /404 HTTP/1.1" 404 3316
+INFO 2021-06-11 14:28:26,178 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-06-11 14:28:26,716 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:28:27,917 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1975
+INFO 2021-06-11 14:28:28,083 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-06-11 14:28:28,093 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-06-11 14:28:28,094 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-06-11 14:28:28,169 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-06-11 14:28:28,280 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-06-11 14:28:28,391 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-06-11 14:28:28,414 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-06-11 14:28:57,110 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:28:57,132 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:29:48,045 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:29:50,099 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:29:50,153 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 14:29:56,181 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:29:56,200 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:29:59,034 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 14:30:25,924 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 14:30:32,770 basehttp 154 "GET /center/ HTTP/1.1" 200 4111
+INFO 2021-06-11 14:35:55,375 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2021-06-11 14:35:55,426 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:35:55,432 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:35:55,439 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:35:55,442 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:35:55,446 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:35:55,462 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+INFO 2021-06-11 14:37:16,306 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:38:13,859 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:38:13,870 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:38:20,733 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2021-06-11 14:41:17,326 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:41:25,635 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+WARNING 2021-06-11 14:41:25,644 log 222 Not Found: /accounts/login/
+WARNING 2021-06-11 14:41:25,644 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3366
+INFO 2021-06-11 14:42:18,333 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-11 14:42:18,757 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:43:17,947 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 14:43:20,294 log 222 Not Found: /accounts/login/
+WARNING 2021-06-11 14:43:20,295 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3366
+INFO 2021-06-11 14:44:42,288 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:44:42,304 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:44:42,367 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 14:44:42,401 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 14:45:04,167 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-11 14:45:04,553 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:45:09,291 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:45:09,300 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:45:09,385 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-11 14:45:18,460 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2021-06-11 14:45:26,001 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:45:26,014 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:45:36,480 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:45:36,495 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:45:36,592 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 14:45:36,615 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 14:49:48,688 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 14:50:12,841 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:50:12,853 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:50:12,918 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 14:50:12,936 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 14:50:16,269 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:50:16,308 basehttp 154 "GET /center/ HTTP/1.1" 200 4106
+INFO 2021-06-11 14:50:49,197 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:50:49,222 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 14:50:55,528 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 14:50:55,548 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 14:50:55,641 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 14:50:55,662 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 15:00:06,295 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:00:29,280 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 15:00:29,304 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 15:00:29,406 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 15:00:31,812 basehttp 154 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-06-11 15:01:03,614 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
+INFO 2021-06-11 15:15:55,750 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-11 15:15:57,062 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:20:12,829 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-11 15:20:14,279 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:20:18,224 basehttp 154 "GET /register/ HTTP/1.1" 200 5339
+INFO 2021-06-11 15:20:18,872 basehttp 154 "GET /imagecode/?uuid=7155b81e-be5b-4b0b-88ba-337839299d5a HTTP/1.1" 200 3267
+WARNING 2021-06-11 15:20:18,910 log 222 Not Found: /favicon.ico
+WARNING 2021-06-11 15:20:22,388 basehttp 154 "GET /static/login.html HTTP/1.1" 404 1654
+WARNING 2021-06-11 15:21:59,912 basehttp 154 "GET /static/login.html HTTP/1.1" 404 1654
+INFO 2021-06-11 15:22:11,683 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-11 15:22:18,410 log 222 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 19, in get
+    return render(request, 'register.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+ERROR 2021-06-11 15:22:18,411 basehttp 154 "GET /register/ HTTP/1.1" 500 131756
+WARNING 2021-06-11 15:22:18,627 log 222 Not Found: /favicon.ico
+WARNING 2021-06-11 15:22:18,628 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3340
+INFO 2021-06-11 15:24:21,668 basehttp 154 "GET /register/ HTTP/1.1" 200 5307
+INFO 2021-06-11 15:24:21,735 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:24:21,739 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:24:21,744 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:24:21,847 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-11 15:24:21,859 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-11 15:24:21,882 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-11 15:24:22,054 basehttp 154 "GET /imagecode/?uuid=76b56064-5561-469c-a1f1-b2d7b0647a0e HTTP/1.1" 200 3369
+INFO 2021-06-11 15:24:29,202 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 15:24:29,275 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+WARNING 2021-06-11 15:24:29,291 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 15:24:32,083 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 15:24:32,094 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 15:24:32,198 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
+INFO 2021-06-11 15:24:32,204 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-11 15:24:32,204 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-11 15:24:32,229 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-06-11 15:24:37,861 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
+INFO 2021-06-11 15:28:09,497 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:28:15,062 basehttp 154 "GET /center/ HTTP/1.1" 200 4172
+INFO 2021-06-11 15:28:15,163 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:28:15,169 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:28:15,171 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:28:15,179 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:28:15,185 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:28:15,210 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+WARNING 2021-06-11 15:38:22,149 log 222 Forbidden (CSRF token missing or incorrect.): /center/
+WARNING 2021-06-11 15:38:22,150 basehttp 154 "POST /center/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 15:39:20,177 log 222 Forbidden (CSRF token missing or incorrect.): /center/
+WARNING 2021-06-11 15:39:20,178 basehttp 154 "POST /center/ HTTP/1.1" 403 2513
+WARNING 2021-06-11 15:39:24,160 log 222 Forbidden (CSRF token missing or incorrect.): /center/
+WARNING 2021-06-11 15:39:24,161 basehttp 154 "POST /center/ HTTP/1.1" 403 2513
+INFO 2021-06-11 15:39:41,208 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:39:44,608 basehttp 154 "GET /center/ HTTP/1.1" 200 4310
+INFO 2021-06-11 15:39:44,662 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:39:44,672 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:39:44,680 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:39:44,680 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:39:44,682 basehttp 154 "GET /static/js/center.js HTTP/1.1" 304 0
+INFO 2021-06-11 15:39:44,684 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 304 0
+INFO 2021-06-11 15:40:55,734 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-06-11 15:40:58,912 basehttp 154 "GET /center/ HTTP/1.1" 200 4339
+WARNING 2021-06-11 15:40:58,967 log 222 Not Found: /center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:40:58,968 basehttp 154 "GET /center/avatar/20210611/5_1.jpg HTTP/1.1" 404 3397
+WARNING 2021-06-11 15:40:59,092 log 222 Not Found: /center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:40:59,095 basehttp 154 "GET /center/avatar/20210611/5_1.jpg HTTP/1.1" 404 3397
+WARNING 2021-06-11 15:43:56,884 log 222 Not Found: /center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:43:56,889 basehttp 154 "GET /center/avatar/20210611/5_1.jpg HTTP/1.1" 404 3397
+INFO 2021-06-11 15:46:44,362 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-11 15:46:45,521 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 15:46:47,515 log 222 Not Found: /center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:46:47,519 basehttp 154 "GET /center/avatar/20210611/5_1.jpg HTTP/1.1" 404 3397
+WARNING 2021-06-11 15:47:07,563 log 222 Not Found: /media/center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:47:07,566 basehttp 154 "GET /media/center/avatar/20210611/5_1.jpg HTTP/1.1" 404 3415
+INFO 2021-06-11 15:53:06,527 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/urls.py changed, reloading.
+INFO 2021-06-11 15:53:07,679 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-11 15:53:09,388 log 222 Not Found: /media/center/avatar/20210611/5_1.jpg
+WARNING 2021-06-11 15:53:09,393 basehttp 154 "GET /media/center/avatar/20210611/5_1.jpg HTTP/1.1" 404 1879
+INFO 2021-06-11 15:53:18,451 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-11 15:53:31,068 basehttp 154 "GET /register/ HTTP/1.1" 200 5307
+INFO 2021-06-11 15:53:31,165 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-11 15:53:31,167 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-11 15:53:31,172 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-11 15:53:31,462 basehttp 154 "GET /imagecode/?uuid=977ea534-aaf9-4be3-9b52-2460f9f6b69a HTTP/1.1" 200 3131
+WARNING 2021-06-11 15:53:31,475 log 222 Not Found: /favicon.ico
+INFO 2021-06-11 15:53:33,059 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-11 15:53:33,109 basehttp 154 "GET /static/js/host.js%20%7D%3E%3C/script%3E%3Cscript%20type= HTTP/1.1" 404 1769
+INFO 2021-06-11 15:53:34,747 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-11 15:53:34,765 basehttp 154 "GET / HTTP/1.1" 200 11914
+INFO 2021-06-11 15:53:34,868 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
+INFO 2021-06-11 15:53:37,505 basehttp 154 "GET /center/ HTTP/1.1" 200 4346
+INFO 2021-06-11 15:53:37,544 basehttp 154 "GET /media/avatar/20210611/5_1.jpg HTTP/1.1" 200 12347

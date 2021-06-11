@@ -197,3 +197,12 @@ LOGGING = {
 # 替换系统的User使用我们自己定义的User
 # 配置信息 '子用户名.模型类型'
 AUTH_USER_MODEL='users.User'
+
+#修改系统的未登录的跳转链接
+LOGIN_URL = '/login/'
+
+#设置上传的图片保存到media目录下
+MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
+
+#设置图片访问的统一路由
+MEDIA_URL = '/media/'
