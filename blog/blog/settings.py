@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #子应用的注册
     'users.apps.UsersConfig',
-    #'home.apps.HomeConfig',
+    'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE = [
@@ -110,10 +110,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+# 修改语言显示
+LANGUAGE_CODE = 'zh-Hans'     #'en-us'
+#修改时区
+TIME_ZONE = 'Asia/Shanghai'                #'UTC'
 
 USE_I18N = True
 

@@ -1301,3 +1301,1081 @@ INFO 2021-06-11 15:53:34,765 basehttp 154 "GET / HTTP/1.1" 200 11914
 INFO 2021-06-11 15:53:34,868 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
 INFO 2021-06-11 15:53:37,505 basehttp 154 "GET /center/ HTTP/1.1" 200 4346
 INFO 2021-06-11 15:53:37,544 basehttp 154 "GET /media/avatar/20210611/5_1.jpg HTTP/1.1" 200 12347
+INFO 2021-06-12 02:53:03,218 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-12 02:53:11,788 basehttp 154 "GET /static/write_blog.html HTTP/1.1" 404 1669
+WARNING 2021-06-12 02:54:20,607 basehttp 154 "GET /static/write_blog.html HTTP/1.1" 404 1669
+WARNING 2021-06-12 02:54:33,609 basehttp 154 "GET /static/write_blog.ht HTTP/1.1" 404 1663
+INFO 2021-06-12 02:55:24,306 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/urls.py changed, reloading.
+INFO 2021-06-12 02:55:25,195 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-12 02:55:34,918 log 222 Not Found: /write_blog
+WARNING 2021-06-12 02:55:34,919 basehttp 154 "GET /write_blog HTTP/1.1" 404 3638
+INFO 2021-06-12 02:55:46,212 basehttp 154 "GET /writeblog HTTP/1.1" 301 0
+INFO 2021-06-12 02:55:46,594 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5688
+INFO 2021-06-12 02:55:46,828 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-06-12 02:55:46,853 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+WARNING 2021-06-12 02:55:49,066 log 222 Not Found: /writeblog/ckeditor/ckeditor/config.js
+WARNING 2021-06-12 02:55:49,068 basehttp 154 "GET /writeblog/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3726
+WARNING 2021-06-12 02:55:49,090 log 222 Not Found: /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css
+WARNING 2021-06-12 02:55:49,091 basehttp 154 "GET /writeblog/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css?t=I3I8 HTTP/1.1" 404 3798
+WARNING 2021-06-12 02:55:49,263 log 222 Not Found: /writeblog/ckeditor/ckeditor/lang/zh-cn.js
+WARNING 2021-06-12 02:55:49,263 basehttp 154 "GET /writeblog/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 404 3738
+INFO 2021-06-12 03:03:46,460 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 03:07:08,895 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 03:07:19,884 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'stati'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'stati'. Did you forget to register or load this tag?
+ERROR 2021-06-12 03:07:19,886 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 152996
+ERROR 2021-06-12 03:07:55,046 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'write_blog.html' not found. 'write_blog.html' is not a valid view function or pattern name.
+ERROR 2021-06-12 03:07:55,061 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 136035
+ERROR 2021-06-12 03:08:23,455 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'write_blog.html' not found. 'write_blog.html' is not a valid view function or pattern name.
+ERROR 2021-06-12 03:08:23,456 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 135900
+ERROR 2021-06-12 03:09:07,511 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:writeblog' from ''users:writeblog'
+ERROR 2021-06-12 03:09:07,512 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 161938
+ERROR 2021-06-12 03:09:14,597 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:writeblog' from ''users:writeblog'
+ERROR 2021-06-12 03:09:14,598 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 161938
+ERROR 2021-06-12 03:11:17,105 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:writeblog' from ''users:writeblog'
+ERROR 2021-06-12 03:11:17,106 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 161936
+ERROR 2021-06-12 03:11:24,278 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 384, in get
+    return render(request,'write_blog.html')
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:writeblog' from ''users:writeblog'
+ERROR 2021-06-12 03:11:24,279 basehttp 154 "GET /writeblog/ HTTP/1.1" 500 161801
+INFO 2021-06-12 03:12:30,857 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-06-12 03:12:30,901 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:30,907 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:30,907 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:30,908 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:30,909 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:30,911 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:31,151 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:12:32,732 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-06-12 03:12:34,317 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-06-12 03:12:34,330 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-06-12 03:12:35,871 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css?t=I3I8 HTTP/1.1" 200 47002
+INFO 2021-06-12 03:12:39,185 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-06-12 03:12:39,197 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-06-12 03:12:39,207 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-06-12 03:12:39,256 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-06-12 03:12:39,374 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/icons.png?t=I3I8 HTTP/1.1" 200 12421
+INFO 2021-06-12 03:12:40,189 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-06-12 03:12:40,256 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-06-12 03:16:21,884 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 03:16:23,473 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-12 03:16:30,856 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-06-12 03:42:15,872 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 03:42:28,754 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-06-12 03:42:29,190 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1975
+INFO 2021-06-12 03:42:29,271 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+INFO 2021-06-12 03:42:29,275 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+INFO 2021-06-12 03:42:29,292 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+INFO 2021-06-12 03:42:29,425 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-06-12 03:42:29,635 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-06-12 03:42:29,637 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-06-12 03:42:29,638 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-06-12 03:46:09,573 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-12 11:46:10,262 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:47:12,833 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:47:40,228 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/blog/settings.py changed, reloading.
+INFO 2021-06-12 11:47:43,081 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:47:48,549 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-06-12 11:47:49,554 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1963
+INFO 2021-06-12 11:47:49,600 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-06-12 11:47:49,601 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-06-12 11:47:49,785 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-06-12 11:52:56,953 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/models.py changed, reloading.
+INFO 2021-06-12 11:52:58,456 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:56:51,584 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2097
+INFO 2021-06-12 11:57:10,214 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-06-12 11:57:10,358 basehttp 154 "GET /admin/ HTTP/1.1" 200 2587
+INFO 2021-06-12 11:57:10,482 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2021-06-12 11:57:10,587 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-06-12 11:57:10,588 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-06-12 11:58:00,752 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/admin.py changed, reloading.
+INFO 2021-06-12 11:58:01,042 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:58:56,981 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/admin.py changed, reloading.
+INFO 2021-06-12 11:58:57,306 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 11:59:03,622 basehttp 154 "GET /admin/ HTTP/1.1" 200 3296
+INFO 2021-06-12 11:59:12,912 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 3220
+INFO 2021-06-12 11:59:13,015 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 11:59:13,022 basehttp 154 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2021-06-12 11:59:13,024 basehttp 154 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO 2021-06-12 11:59:13,025 basehttp 154 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2021-06-12 11:59:13,026 basehttp 154 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2021-06-12 11:59:13,029 basehttp 154 "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+INFO 2021-06-12 11:59:13,030 basehttp 154 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2021-06-12 11:59:13,040 basehttp 154 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2021-06-12 11:59:13,041 basehttp 154 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2021-06-12 11:59:13,041 basehttp 154 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+INFO 2021-06-12 11:59:13,179 basehttp 154 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-06-12 11:59:42,042 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5038
+INFO 2021-06-12 11:59:42,084 basehttp 154 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2021-06-12 11:59:42,084 basehttp 154 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2021-06-12 11:59:42,085 basehttp 154 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2021-06-12 11:59:42,087 basehttp 154 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+INFO 2021-06-12 11:59:42,097 basehttp 154 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2021-06-12 11:59:42,107 basehttp 154 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2021-06-12 11:59:42,141 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 11:59:42,218 basehttp 154 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-06-12 11:59:42,220 basehttp 154 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-06-12 11:59:58,454 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 11:59:58,508 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5273
+INFO 2021-06-12 11:59:58,674 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 11:59:58,756 basehttp 154 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-06-12 12:00:06,363 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:00:06,397 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5271
+INFO 2021-06-12 12:00:06,518 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:13,858 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:00:13,984 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5271
+INFO 2021-06-12 12:00:14,063 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:24,313 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:00:24,478 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5272
+INFO 2021-06-12 12:00:24,598 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:43,311 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:00:43,514 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5478
+INFO 2021-06-12 12:00:43,579 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:49,814 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5038
+INFO 2021-06-12 12:00:49,871 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:57,250 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:00:57,323 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5699
+INFO 2021-06-12 12:00:57,391 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:00:58,983 basehttp 154 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 5038
+INFO 2021-06-12 12:00:59,060 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:01:06,748 basehttp 154 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:01:06,786 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5923
+INFO 2021-06-12 12:01:07,364 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:01:50,247 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 12:01:55,879 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-06-12 12:02:20,761 basehttp 154 "POST /admin/home/articlecategory/ HTTP/1.1" 302 0
+INFO 2021-06-12 12:02:20,847 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5911
+INFO 2021-06-12 12:02:20,928 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:02:20,972 basehttp 154 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2021-06-12 12:02:27,020 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 12:02:28,899 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5747
+INFO 2021-06-12 12:02:32,113 basehttp 154 "GET /admin/ HTTP/1.1" 200 5395
+INFO 2021-06-12 12:02:36,870 basehttp 154 "GET /admin/home/articlecategory/ HTTP/1.1" 200 5747
+INFO 2021-06-12 12:02:36,902 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2021-06-12 12:02:40,403 basehttp 154 "GET /admin/ HTTP/1.1" 200 5395
+INFO 2021-06-12 12:02:46,563 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 5670
+INFO 2021-06-12 12:02:46,649 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,652 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,654 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,658 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,659 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,677 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:02:46,678 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:05:32,535 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-12 12:05:33,431 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 12:12:49,261 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 12:12:52,040 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6063
+INFO 2021-06-12 12:12:52,079 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,093 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,096 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,096 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,097 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,098 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-12 12:12:52,099 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:01,970 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 14:59:10,038 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6063
+INFO 2021-06-12 14:59:10,479 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,494 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,500 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,502 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,505 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,508 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-12 14:59:10,536 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+WARNING 2021-06-12 15:03:16,113 log 222 Forbidden (CSRF token missing or incorrect.): /writeblog/
+WARNING 2021-06-12 15:03:16,114 basehttp 154 "POST /writeblog/ HTTP/1.1" 403 2508
+WARNING 2021-06-12 15:05:21,424 log 222 Forbidden (CSRF token missing or incorrect.): /writeblog/
+WARNING 2021-06-12 15:05:21,425 basehttp 154 "POST /writeblog/ HTTP/1.1" 403 2508
+INFO 2021-06-12 15:05:31,339 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:05:42,708 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+ERROR 2021-06-12 15:07:22,221 views 433 Article() got an unexpected keyword argument 'avater'
+WARNING 2021-06-12 15:07:53,220 log 222 Bad Request: /writeblog/
+WARNING 2021-06-12 15:07:53,221 basehttp 154 "POST /writeblog/ HTTP/1.1" 400 30
+ERROR 2021-06-12 15:13:35,002 views 433 Article() got an unexpected keyword argument 'avater'
+WARNING 2021-06-12 15:14:10,179 log 222 Bad Request: /writeblog/
+WARNING 2021-06-12 15:14:10,180 basehttp 154 "POST /writeblog/ HTTP/1.1" 400 30
+INFO 2021-06-12 15:18:49,905 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-12 15:18:50,838 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 15:19:05,858 log 222 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py", line 415, in post
+    if not all([avater,title,category_id,tags,sumary,content]):
+NameError: name 'avater' is not defined
+ERROR 2021-06-12 15:19:05,866 basehttp 154 "POST /writeblog/ HTTP/1.1" 500 93059
+INFO 2021-06-12 15:19:36,888 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-12 15:19:37,750 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 15:19:54,631 views 433 Article() got an unexpected keyword argument 'avater'
+WARNING 2021-06-12 15:19:56,644 log 222 Bad Request: /writeblog/
+WARNING 2021-06-12 15:19:56,651 basehttp 154 "POST /writeblog/ HTTP/1.1" 400 30
+INFO 2021-06-12 15:20:11,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:20:43,414 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-12 15:20:44,421 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:20:48,328 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:21:17,348 basehttp 154 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-06-12 15:21:27,682 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:21:27,743 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,755 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,762 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,769 basehttp 154 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,773 basehttp 154 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,774 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,775 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:27,818 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 15:21:44,185 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:22:04,981 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:22:09,465 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:25:28,013 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:25:36,581 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+INFO 2021-06-12 15:26:09,085 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-12 15:26:09,102 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-06-12 15:26:09,126 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-06-12 15:26:09,314 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2021-06-12 15:32:46,742 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:33:25,705 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:33:25,781 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-06-12 15:33:25,801 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-06-12 15:33:25,817 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-06-12 15:33:25,818 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-06-12 15:33:25,843 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-06-12 15:33:25,858 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-06-12 15:33:25,883 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-06-12 15:33:25,891 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-06-12 15:33:25,986 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-06-12 15:33:26,088 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 529
+INFO 2021-06-12 15:33:26,183 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-06-12 15:33:26,204 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-06-12 15:33:27,324 log 222 Not Found: /favicon.ico
+WARNING 2021-06-12 15:33:27,324 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3645
+INFO 2021-06-12 15:33:32,678 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 15:33:32,742 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-06-12 15:33:41,166 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-12 15:33:41,256 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:33:47,943 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+INFO 2021-06-12 15:33:48,045 basehttp 154 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-06-12 15:33:48,060 basehttp 154 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2021-06-12 15:33:48,175 basehttp 154 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2021-06-12 15:33:48,292 basehttp 154 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-06-12 15:33:48,349 basehttp 154 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-06-12 15:33:48,360 basehttp 154 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-06-12 15:33:48,365 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-06-12 15:33:48,412 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-06-12 15:33:48,433 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-06-12 15:33:48,450 basehttp 154 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-06-12 15:33:48,459 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/icons.png?t=I3I8 HTTP/1.1" 200 12421
+INFO 2021-06-12 15:33:48,473 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-06-12 15:33:48,491 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-06-12 15:33:48,505 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-06-12 15:33:48,520 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+WARNING 2021-06-12 15:33:58,257 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 15:33:58,542 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 15:34:27,474 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:34:30,844 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+INFO 2021-06-12 15:36:43,215 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-12 15:36:43,283 basehttp 154 "GET / HTTP/1.1" 200 11900
+INFO 2021-06-12 15:36:44,392 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 15:36:47,697 basehttp 154 "GET /register/ HTTP/1.1" 200 5307
+INFO 2021-06-12 15:36:47,935 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-06-12 15:38:30,283 basehttp 154 "GET /imagecode/?uuid=d257b614-1734-42b9-bf32-c186e702f46f HTTP/1.1" 200 3253
+INFO 2021-06-12 15:51:30,923 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 15:52:17,284 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 15:52:23,538 basehttp 154 "GET / HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:33,932 basehttp 154 "GET /?cat_id=2 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:34,937 basehttp 154 "GET /?cat_id=3 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:35,819 basehttp 154 "GET /?cat_id=4 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:36,620 basehttp 154 "GET /?cat_id=5 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:37,176 basehttp 154 "GET /?cat_id=6 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:37,709 basehttp 154 "GET /?cat_id=7 HTTP/1.1" 200 12999
+INFO 2021-06-12 15:52:38,796 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 12999
+INFO 2021-06-12 16:26:57,743 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 16:27:04,287 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles,per_page=page_size)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/paginator.py", line 34, in __init__
+    self.per_page = int(per_page)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:27:04,288 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 500 85330
+INFO 2021-06-12 16:35:20,659 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 16:36:09,612 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles,per_page=page_size)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/paginator.py", line 34, in __init__
+    self.per_page = int(per_page)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:36:09,614 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 500 85330
+ERROR 2021-06-12 16:36:16,904 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles,per_page=page_size)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/paginator.py", line 34, in __init__
+    self.per_page = int(per_page)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:36:16,905 basehttp 154 "GET / HTTP/1.1" 500 84664
+INFO 2021-06-12 16:37:18,772 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 16:37:19,059 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 16:37:26,156 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles, page_size)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/paginator.py", line 34, in __init__
+    self.per_page = int(per_page)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:37:26,159 basehttp 154 "GET / HTTP/1.1" 500 84783
+INFO 2021-06-12 16:38:26,918 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 16:38:31,755 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles, int(page_size))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:38:31,756 basehttp 154 "GET / HTTP/1.1" 500 80426
+ERROR 2021-06-12 16:38:38,340 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles, int(page_size))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:38:38,341 basehttp 154 "GET / HTTP/1.1" 500 80426
+INFO 2021-06-12 16:38:44,763 basehttp 154 "GET /center HTTP/1.1" 301 0
+INFO 2021-06-12 16:38:44,831 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-06-12 16:38:44,905 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3231
+INFO 2021-06-12 16:38:52,034 basehttp 154 "GET /login/?next=/ HTTP/1.1" 200 3231
+ERROR 2021-06-12 16:38:57,739 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 27, in get
+    paginator=Paginator(articles, int(page_size))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2021-06-12 16:38:57,742 basehttp 154 "GET / HTTP/1.1" 500 80291
+INFO 2021-06-12 16:39:41,058 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 16:39:41,428 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 16:39:46,094 basehttp 154 "GET / HTTP/1.1" 200 6751
+INFO 2021-06-12 16:39:46,330 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 200 709042
+INFO 2021-06-12 16:41:44,940 basehttp 154 "GET / HTTP/1.1" 200 8219
+INFO 2021-06-12 16:42:00,601 basehttp 154 "GET / HTTP/1.1" 200 19963
+INFO 2021-06-12 16:42:13,567 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:42:17,543 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:42:22,704 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=3 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:45:46,454 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=3 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:45:50,018 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=1 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:46:04,079 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:46:14,997 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:46:20,744 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:15,807 basehttp 154 "GET /?cat_id=5 HTTP/1.1" 200 5283
+INFO 2021-06-12 16:47:16,983 basehttp 154 "GET /?cat_id=3 HTTP/1.1" 200 5283
+INFO 2021-06-12 16:47:17,836 basehttp 154 "GET /?cat_id=2 HTTP/1.1" 200 5283
+INFO 2021-06-12 16:47:19,326 basehttp 154 "GET /?cat_id=4 HTTP/1.1" 200 5283
+INFO 2021-06-12 16:47:20,325 basehttp 154 "GET /?cat_id=7 HTTP/1.1" 200 5283
+INFO 2021-06-12 16:47:21,372 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:25,408 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:29,899 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:34,469 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=3 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:38,122 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:38,157 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 16:47:47,999 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:50,752 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:47:54,008 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+WARNING 2021-06-12 16:53:53,329 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 16:53:53,506 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 16:59:35,182 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 16:59:41,408 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 16:59:41,568 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 16:59:45,868 basehttp 154 "GET / HTTP/1.1" 200 19963
+INFO 2021-06-12 16:59:52,941 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:00:52,265 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:00:55,151 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:00:58,004 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=3 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:01:03,118 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:08:39,671 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 9687
+INFO 2021-06-12 17:08:49,428 basehttp 154 "GET / HTTP/1.1" 200 9687
+INFO 2021-06-12 17:09:32,481 basehttp 154 "GET / HTTP/1.1" 200 14091
+INFO 2021-06-12 17:09:32,556 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 17:09:44,270 basehttp 154 "GET / HTTP/1.1" 200 19963
+INFO 2021-06-12 17:09:47,598 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+WARNING 2021-06-12 17:17:45,715 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:17:45,867 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 17:19:15,294 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:19:15,575 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-06-12 17:19:15,586 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:19:26,386 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:19:26,557 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-06-12 17:19:26,588 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:20:10,695 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+WARNING 2021-06-12 17:20:10,967 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:20:10,976 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-06-12 17:22:49,653 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:22:49,810 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 17:23:01,790 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:23:01,833 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+WARNING 2021-06-12 17:23:01,938 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:23:01,943 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 17:23:07,290 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+WARNING 2021-06-12 17:23:07,427 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:23:07,429 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-06-12 17:23:33,367 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 19963
+INFO 2021-06-12 17:23:33,492 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-06-12 17:23:33,496 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1676
+INFO 2021-06-12 17:37:20,250 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 17:38:10,828 basehttp 154 "GET / HTTP/1.1" 200 19963
+INFO 2021-06-12 17:38:11,047 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-12 17:38:11,048 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 17:38:50,336 basehttp 154 "GET /detail HTTP/1.1" 301 0
+INFO 2021-06-12 17:38:50,382 basehttp 154 "GET /detail/ HTTP/1.1" 200 8752
+INFO 2021-06-12 17:38:50,600 basehttp 154 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-06-12 17:38:50,620 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-06-12 17:38:50,621 basehttp 154 "GET /static/js/detail.js HTTP/1.1" 200 1294
+WARNING 2021-06-12 17:38:50,841 log 222 Not Found: /detail/ckeditor/ckeditor/config.js
+WARNING 2021-06-12 17:38:50,842 basehttp 154 "GET /detail/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 404 3890
+WARNING 2021-06-12 17:38:50,873 log 222 Not Found: /detail/ckeditor/ckeditor/lang/en.js
+WARNING 2021-06-12 17:38:50,876 basehttp 154 "GET /detail/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 404 3893
+WARNING 2021-06-12 17:38:50,879 log 222 Not Found: /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css
+WARNING 2021-06-12 17:38:50,880 basehttp 154 "GET /detail/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 404 3944
+INFO 2021-06-12 17:46:57,353 basehttp 154 "GET /detail/ HTTP/1.1" 200 8732
+INFO 2021-06-12 17:46:57,799 basehttp 154 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-06-12 17:46:57,930 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-06-12 17:46:57,933 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-06-12 17:46:57,958 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-06-12 17:46:58,036 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-06-12 17:46:58,065 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2021-06-12 17:59:58,352 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 17:59:58,673 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:02:16,986 basehttp 154 "GET / HTTP/1.1" 200 19963
+INFO 2021-06-12 18:02:17,173 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 18:03:43,072 basehttp 154 "GET /?cat_id=2 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:44,147 basehttp 154 "GET /?cat_id=3 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:44,825 basehttp 154 "GET /?cat_id=4 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:45,474 basehttp 154 "GET /?cat_id=5 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:46,028 basehttp 154 "GET /?cat_id=6 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:46,749 basehttp 154 "GET /?cat_id=7 HTTP/1.1" 200 5283
+INFO 2021-06-12 18:03:47,941 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 19963
+INFO 2021-06-12 18:11:48,586 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 19990
+INFO 2021-06-12 18:11:52,626 basehttp 154 "GET /detail/?id=1 HTTP/1.1" 200 10393
+INFO 2021-06-12 18:12:15,967 basehttp 154 "GET /detail/?id=3 HTTP/1.1" 200 10393
+INFO 2021-06-12 18:20:52,974 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 19990
+INFO 2021-06-12 18:20:53,059 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c.jpg HTTP/1.1" 304 0
+INFO 2021-06-12 18:21:03,539 basehttp 154 "GET / HTTP/1.1" 200 19990
+INFO 2021-06-12 18:21:09,495 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 18:21:17,010 basehttp 154 "GET / HTTP/1.1" 200 19990
+INFO 2021-06-12 18:21:25,181 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:21:28,071 basehttp 154 "GET / HTTP/1.1" 200 19970
+INFO 2021-06-12 18:22:02,246 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:22:11,605 basehttp 154 "GET / HTTP/1.1" 200 19970
+INFO 2021-06-12 18:22:27,292 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:22:28,028 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 18:22:32,668 basehttp 154 "GET / HTTP/1.1" 200 19960
+INFO 2021-06-12 18:22:37,898 basehttp 154 "GET /detail/?id=1 HTTP/1.1" 200 10393
+INFO 2021-06-12 18:24:45,800 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:24:55,724 basehttp 154 "GET / HTTP/1.1" 200 19960
+INFO 2021-06-12 18:24:58,121 basehttp 154 "GET /detail/?id=1 HTTP/1.1" 200 10391
+INFO 2021-06-12 18:27:20,654 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 18:27:25,832 basehttp 154 "GET / HTTP/1.1" 200 19960
+INFO 2021-06-12 18:27:29,884 basehttp 154 "GET /detail/?id=1 HTTP/1.1" 200 10391
+INFO 2021-06-12 18:28:29,801 basehttp 154 "GET /detail/?id=1 HTTP/1.1" 200 10391
+INFO 2021-06-12 19:16:47,654 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:16:53,113 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+INFO 2021-06-12 19:16:59,236 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-12 19:16:59,424 basehttp 154 "GET / HTTP/1.1" 200 5283
+INFO 2021-06-12 19:17:03,370 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+INFO 2021-06-12 19:23:52,875 basehttp 154 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-06-12 19:23:53,122 basehttp 154 "GET / HTTP/1.1" 200 6751
+INFO 2021-06-12 19:23:53,413 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 200 2941640
+INFO 2021-06-12 19:24:07,735 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:24:10,334 basehttp 154 "GET / HTTP/1.1" 200 6748
+INFO 2021-06-12 19:24:10,420 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:26:33,131 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/users/views.py changed, reloading.
+INFO 2021-06-12 19:26:33,512 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:30:28,767 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:30:28,859 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:30:30,875 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 10399
+INFO 2021-06-12 19:30:59,046 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-06-12 19:30:59,259 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:31:00,215 basehttp 154 "GET /login/ HTTP/1.1" 200 3231
+WARNING 2021-06-12 19:31:18,829 log 222 Bad Request: /login/
+WARNING 2021-06-12 19:31:18,829 basehttp 154 "POST /login/ HTTP/1.1" 400 24
+WARNING 2021-06-12 19:31:45,266 log 222 Bad Request: /login/
+WARNING 2021-06-12 19:31:45,267 basehttp 154 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-06-12 19:31:54,716 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-06-12 19:31:54,827 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:31:54,919 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:32:04,485 basehttp 154 "GET /writeblog/ HTTP/1.1" 200 6201
+INFO 2021-06-12 19:33:26,680 basehttp 154 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-06-12 19:33:26,827 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:33:26,957 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:33:30,432 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:33:33,829 basehttp 154 "GET / HTTP/1.1" 200 6760
+INFO 2021-06-12 19:33:53,034 basehttp 154 "GET /?cat_id=2 HTTP/1.1" 200 6756
+INFO 2021-06-12 19:33:53,121 basehttp 154 "GET /media/article/20210612/738203278fa8873f686105717581963c_1KMAFTx.jpg HTTP/1.1" 200 709042
+INFO 2021-06-12 19:33:54,729 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 6760
+INFO 2021-06-12 19:34:58,046 basehttp 154 "GET /?cat_id=1 HTTP/1.1" 200 17101
+INFO 2021-06-12 19:34:58,077 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:35:04,200 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10399
+INFO 2021-06-12 19:40:37,822 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 19:40:38,563 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:40:53,432 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 19:40:53,735 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:41:57,008 basehttp 154 "GET /detail/?id=11111 HTTP/1.1" 200 1140
+INFO 2021-06-12 19:41:57,229 basehttp 154 "GET /static/img/404.png HTTP/1.1" 200 107422
+INFO 2021-06-12 19:42:10,333 basehttp 154 "GET / HTTP/1.1" 200 17101
+INFO 2021-06-12 19:42:10,472 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:44:07,493 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 19:44:07,815 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:52:33,314 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 19:52:33,611 autoreload 597 Watching for file changes with StatReloader
+ERROR 2021-06-12 19:52:44,674 log 222 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py", line 78, in get
+    return render(request,'detail.html',context=context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/template/defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 256, in __len__
+    self._fetch_all()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 474, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 329, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 704, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 734, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "/home/kura/.virtualenvs/blog/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'toltal_views' into field. Choices are: author, author_id, avatar, category, category_id, comments_count, content, created, id, sumary, tags, title, total_views, updated
+ERROR 2021-06-12 19:52:44,679 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 500 188851
+INFO 2021-06-12 19:53:43,417 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 19:53:43,696 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:53:47,410 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:53:52,657 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:54:03,877 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:54:05,090 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:54:06,657 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:54:10,729 basehttp 154 "GET /detail/?id=98 HTTP/1.1" 200 10791
+INFO 2021-06-12 19:54:57,755 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 19:55:00,999 basehttp 154 "GET / HTTP/1.1" 200 20057
+INFO 2021-06-12 19:55:01,092 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-06-12 19:55:01,126 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 19:55:02,527 basehttp 154 "GET /detail/?id=96 HTTP/1.1" 200 10893
+INFO 2021-06-12 19:55:07,643 basehttp 154 "GET /detail/ HTTP/1.1" 200 1140
+INFO 2021-06-12 19:55:13,467 basehttp 154 "GET /detail/ HTTP/1.1" 200 1140
+INFO 2021-06-12 19:55:17,020 basehttp 154 "GET /detail/ HTTP/1.1" 200 1140
+INFO 2021-06-12 19:59:31,216 basehttp 154 "GET /detail/?id=91 HTTP/1.1" 200 10893
+INFO 2021-06-12 20:01:06,367 basehttp 154 "GET / HTTP/1.1" 200 20057
+INFO 2021-06-12 20:01:06,444 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 20:01:07,916 basehttp 154 "GET /detail/?id=91 HTTP/1.1" 200 10956
+WARNING 2021-06-12 20:01:10,137 log 222 Not Found: /detail//
+WARNING 2021-06-12 20:01:10,138 basehttp 154 "GET /detail//?id=98 HTTP/1.1" 404 3811
+INFO 2021-06-12 20:01:44,333 basehttp 154 "GET /detail/?id=91 HTTP/1.1" 200 10947
+INFO 2021-06-12 20:01:46,121 basehttp 154 "GET /detail/?id=89 HTTP/1.1" 200 10947
+INFO 2021-06-12 20:01:48,445 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:49,809 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:51,783 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:53,414 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:53,937 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:54,282 basehttp 154 "GET /detail/?id=85 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:01:54,690 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 10947
+INFO 2021-06-12 20:01:56,850 basehttp 154 "GET /detail/?id=98 HTTP/1.1" 200 10947
+INFO 2021-06-12 20:01:57,736 basehttp 154 "GET /detail/?id=89 HTTP/1.1" 200 10947
+INFO 2021-06-12 20:01:59,368 basehttp 154 "GET /detail/?id=87 HTTP/1.1" 200 10911
+INFO 2021-06-12 20:09:35,350 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 20:09:35,695 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 20:14:11,976 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 20:14:12,379 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 20:29:50,009 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 20:29:50,366 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 20:30:05,166 basehttp 154 "GET /detail/?id=89 HTTP/1.1" 200 11089
+INFO 2021-06-12 20:30:23,748 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=I3I8 HTTP/1.1" 200 13570
+INFO 2021-06-12 20:30:23,754 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js?t=I3I8 HTTP/1.1" 200 3463
+INFO 2021-06-12 20:30:23,781 basehttp 154 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2021-06-12 20:30:23,806 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png HTTP/1.1" 200 1115
+INFO 2021-06-12 20:30:23,810 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png HTTP/1.1" 200 1084
+INFO 2021-06-12 20:30:23,810 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 200 1114
+INFO 2021-06-12 20:30:23,812 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png HTTP/1.1" 200 1183
+INFO 2021-06-12 20:30:23,813 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 200 1101
+INFO 2021-06-12 20:30:23,834 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 200 1132
+INFO 2021-06-12 20:30:23,852 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png HTTP/1.1" 200 1145
+INFO 2021-06-12 20:30:23,866 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png HTTP/1.1" 200 1122
+INFO 2021-06-12 20:30:23,870 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png HTTP/1.1" 200 959
+INFO 2021-06-12 20:30:23,878 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+INFO 2021-06-12 20:30:23,879 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png HTTP/1.1" 200 985
+INFO 2021-06-12 20:30:23,883 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png HTTP/1.1" 200 1214
+INFO 2021-06-12 20:30:23,897 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png HTTP/1.1" 200 1204
+INFO 2021-06-12 20:30:23,911 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/envelope.png HTTP/1.1" 200 760
+INFO 2021-06-12 20:30:23,917 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/kiss.png HTTP/1.1" 200 1003
+INFO 2021-06-12 20:30:23,924 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png HTTP/1.1" 200 919
+INFO 2021-06-12 20:30:23,929 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png HTTP/1.1" 200 1220
+INFO 2021-06-12 20:30:23,930 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png HTTP/1.1" 200 1220
+INFO 2021-06-12 20:30:23,943 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png HTTP/1.1" 200 1172
+INFO 2021-06-12 20:30:23,957 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png HTTP/1.1" 200 1039
+INFO 2021-06-12 20:30:23,963 basehttp 154 "GET /static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png HTTP/1.1" 200 1139
+WARNING 2021-06-12 20:30:26,687 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:30:26,687 basehttp 154 "POST /detail/?id=89 HTTP/1.1" 404 15
+INFO 2021-06-12 20:30:39,611 basehttp 154 "GET /detail/?id=89 HTTP/1.1" 200 11089
+INFO 2021-06-12 20:30:42,436 basehttp 154 "GET /detail/?id=96 HTTP/1.1" 200 11089
+WARNING 2021-06-12 20:30:46,013 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:30:46,013 basehttp 154 "POST /detail/?id=96 HTTP/1.1" 404 15
+INFO 2021-06-12 20:31:51,213 autoreload 597 Watching for file changes with StatReloader
+WARNING 2021-06-12 20:32:58,003 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:32:58,004 basehttp 154 "POST /detail/?id=96 HTTP/1.1" 404 15
+INFO 2021-06-12 20:33:15,161 basehttp 154 "GET / HTTP/1.1" 200 20057
+INFO 2021-06-12 20:33:15,245 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 20:33:17,805 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 11089
+WARNING 2021-06-12 20:38:01,431 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:38:01,431 basehttp 154 "POST /detail/?id=84 HTTP/1.1" 404 15
+WARNING 2021-06-12 20:40:14,987 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:40:14,988 basehttp 154 "POST /detail/?id=84 HTTP/1.1" 404 15
+WARNING 2021-06-12 20:41:01,589 log 222 Not Found: /detail/
+WARNING 2021-06-12 20:41:01,590 basehttp 154 "POST /detail/?id=84 HTTP/1.1" 404 15
+INFO 2021-06-12 20:41:15,018 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 20:42:06,581 basehttp 154 "POST /detail/?id=84 HTTP/1.1" 302 0
+INFO 2021-06-12 20:42:44,266 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 11089
+INFO 2021-06-12 20:42:57,132 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 11089
+INFO 2021-06-12 21:02:22,173 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 11089
+INFO 2021-06-12 21:02:29,797 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:02:42,488 basehttp 154 "GET / HTTP/1.1" 200 20057
+INFO 2021-06-12 21:02:42,599 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 21:02:44,956 basehttp 154 "GET /detail/?id=96 HTTP/1.1" 200 9203
+INFO 2021-06-12 21:02:51,717 basehttp 154 "GET /detail/?id=86 HTTP/1.1" 200 9203
+INFO 2021-06-12 21:02:56,789 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 9826
+INFO 2021-06-12 21:03:48,399 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 12319
+INFO 2021-06-12 21:03:52,088 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=2 HTTP/1.1" 200 12319
+INFO 2021-06-12 21:03:56,285 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=3 HTTP/1.1" 200 12319
+INFO 2021-06-12 21:04:00,246 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=4 HTTP/1.1" 200 9827
+INFO 2021-06-12 21:06:12,816 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=3 HTTP/1.1" 200 12320
+INFO 2021-06-12 21:06:17,131 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=2 HTTP/1.1" 200 12320
+INFO 2021-06-12 21:38:26,297 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:38:39,940 basehttp 154 "GET / HTTP/1.1" 200 20059
+INFO 2021-06-12 21:38:40,064 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 21:38:44,279 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20059
+INFO 2021-06-12 21:38:50,931 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20059
+INFO 2021-06-12 21:38:56,980 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=3 HTTP/1.1" 200 20059
+INFO 2021-06-12 21:39:00,760 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=4 HTTP/1.1" 200 20059
+INFO 2021-06-12 21:39:07,137 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=5 HTTP/1.1" 200 20059
+INFO 2021-06-12 21:42:31,483 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:42:35,943 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=5 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:42:40,658 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 21:42:43,524 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:42:54,401 basehttp 154 "GET /detail/?id=113 HTTP/1.1" 200 9207
+INFO 2021-06-12 21:42:56,416 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 12323
+INFO 2021-06-12 21:42:59,145 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=2 HTTP/1.1" 200 12323
+INFO 2021-06-12 21:43:04,667 basehttp 154 "GET /detail/?id=84&page_size=5&page_num=3 HTTP/1.1" 200 12323
+INFO 2021-06-12 21:43:11,147 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 21:43:17,569 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:43:29,829 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:43:33,310 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:44:18,296 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:44:41,227 autoreload 217 /home/kura/PycharmProjects/my_python_project/django/blog/blog/home/views.py changed, reloading.
+INFO 2021-06-12 21:44:41,496 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:50:55,750 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:51:12,263 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 21:51:26,781 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:53:35,030 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 21:53:35,122 basehttp 154 "GET /media/article/20210612/dc18037f903df2cb09a0bff5587faf00.png HTTP/1.1" 304 0
+INFO 2021-06-12 21:54:56,520 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:14,925 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=1 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:26,507 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:38,125 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:44,664 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:51,019 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:55:59,347 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:56:03,411 basehttp 154 "GET /?cat_id=1&page_size=10&pag_num=2 HTTP/1.1" 200 20058
+INFO 2021-06-12 21:56:08,035 basehttp 154 "GET /detail/?id=84 HTTP/1.1" 200 12323
+INFO 2021-06-12 21:57:04,771 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:57:15,670 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:58:39,929 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 21:59:05,782 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 22:00:46,267 basehttp 154 "GET / HTTP/1.1" 200 20058
+INFO 2021-06-12 22:04:04,149 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 22:04:28,871 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 22:05:17,662 autoreload 597 Watching for file changes with StatReloader
+INFO 2021-06-12 22:05:19,431 basehttp 154 "GET /?cat_id=1&page_size=10&page_num=2 HTTP/1.1" 200 14152
+INFO 2021-06-12 22:05:58,653 basehttp 154 "GET /?cat_id=1&page_size=10&page_num=1 HTTP/1.1" 200 20059
+INFO 2021-06-12 22:06:05,432 basehttp 154 "GET /?cat_id=1&page_size=10&page_num=2 HTTP/1.1" 200 14152
+INFO 2021-06-12 22:06:10,119 basehttp 154 "GET /?cat_id=1&page_size=10&page_num=1 HTTP/1.1" 200 20059
